@@ -36,7 +36,7 @@ affine shift=x,y
 Shift0 -20,0   'Asia, Europe ex Iceland, Africa, parts of Oceania
 Shift1 nothing 'Americas ex Hawaii, Greenland
 Shift2 +30,0   'Hawaii. Cook, Fr Polynesia
-Shift3 -7,-4.5 'Greenland if used. Also scaled to 50%
+Shift3 -7,-4.5 'Greenland if used. Also scaled to 50%.                      			Nuuk -6.6 -2
 Shift4 -20,-5  'Iceland
 Shift5 -70,0   'Australia, New Zealand, Fiji, Vanuatu, New Cal.
 Shift6 +35,0   'Samoa, Tonga
@@ -59,7 +59,7 @@ filter ' NAME_1=="British Columbia" || NAME_1=="Nova Scotia" || NAME_1=="Prince 
 
 filter ' NAME_1=="Northwest Territories" || NAME_1=="Nunavut"'
 
-LAKES TO KEEP (11 largest)
+LAKES TO KEEP (10 largest)
 Caspian
 Superior
 Victoria
@@ -70,7 +70,7 @@ Baikal
 Great Bear
 Malawi
 Great Slave
-Erie (#11, but one of the Great Lakes so include)
+Erie (#11, but one of the Great Lakes)
 
 KENYA
 filter ' NAME_1=="Busia" || NAME_1=="Siaya" || NAME_1=="Kisumu" || NAME_1=="Homa Bay" || NAME_1=="Migori"'
@@ -85,7 +85,7 @@ PNG  filter 'NAME_2=="Vanimo-Green River" || 'NAME_2=="Telefomin" || NAME_2=="Fl
 FROM SUB TO COUNTRY
 dissolve CODESH copy-fields= CODE,NAME,CONT,REG,SUBREG,OCTO,SHIFT,CODESH,CONTSH,REGSH,SUBREGSH,OCTOSH,GID_0,NAME_0
 
-PROJECTIONS FOR SVG -- USING OWN PROJECTION
+PROJECTIONS FOR SVG (POWERPOINT) -- USING CANBACK PROJECTION
 
 N America
 proj +proj=lcc +lon_0=-96 +lat_1=38
