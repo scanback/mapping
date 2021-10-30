@@ -41,7 +41,7 @@ Shift4 -20,-5  'Iceland
 Shift5 -70,0   'Australia, New Zealand, Fiji, Vanuatu, New Cal.
 Shift6 +35,0   'Samoa, Tonga
 Shift7 -33,0   'Kiribati, Marshall Is, Micronesia, Nauru, Tuvalu
-                (not Palau which is -20)
+                (not Palau which is Shift0 -20)
 
 Keep
 GUF GLP MYT REU
@@ -55,7 +55,7 @@ filter 'GID_0 !== "ALA" || GID_0 !== "ASM"'
 
 CANADA
 
-filter ' NAME_1=="British Columbia" || NAME_1=="Nova Scotia" || NAME_1=="Prince Edward Island" || NAME_1=="Newfoundland and Labrador" || NAME_1=="New Brunswick" || NAME_1=="Québec" || NAME_1=="Ontario"
+filter ' NAME_1=="British Columbia" || NAME_1=="Nova Scotia" || NAME_1=="Prince Edward Island" || NAME_1=="Newfoundland and Labrador" || NAME_1=="New Brunswick" || NAME_1=="QuÃ©bec" || NAME_1=="Ontario"
 
 filter ' NAME_1=="Northwest Territories" || NAME_1=="Nunavut"'
 
