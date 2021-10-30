@@ -20,7 +20,7 @@ Keep 2 subs.
 filter-islands min-area=1000000000000
 e.g. to get rid of islands in Russia and Canada
 
-DBF only allows 10 character field names. Problem with stroke-width. Save as stroke_wid and rename very time
+DBF only allows 10 character field names. Problem with stroke-width. Save as stroke_wid and rename every time
 rename-fields stroke-width=stroke_wid
 
 Projections
