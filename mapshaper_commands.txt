@@ -40,7 +40,7 @@ Shift3 -7,-4.5 'Greenland. Also scaled to 50%
 Shift4 -20,-5  'Iceland
 Shift5 -70,0   'Australia, New Zealand, Fiji, Vanuatu, New Cal.
 Shift6 +35,0   'Samoa, Tonga
-Shift7 -33,0   'Not implemented: Kiribati, Marshall Is, Micronesia, Nauru, Tuvalu (not Palau which is Shift0 -20,0)
+Shift7 -33,0   'Not implemented. Kept as shift0: Kiribati, Marshall Is, Micronesia, Nauru, Tuvalu (not Palau which is Shift0 -20,0)
 Shift8 -6.6,-2 'Nuuk
 
 Keep
